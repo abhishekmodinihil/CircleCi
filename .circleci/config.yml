@@ -4,7 +4,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/CircleCi/app/build/outputs/apk/
+        - C:\Users\abhishek.modi\AppData\Local\Android\Sdk
 
 machine:
     environment:
