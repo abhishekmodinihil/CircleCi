@@ -5,6 +5,9 @@
 version: 2
 jobs:
   build:
+  - run:
+        name: chmod permissions
+        command: chmod +x ./gradlew
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
